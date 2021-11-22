@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/thinpv/viduino/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Installing Viduino Uno Add-on in Arduino IDE
+To install the Viduino Uno board in your Arduino IDE, follow these next instructions:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. In your Arduino IDE, go to File> Preferences
 
-```markdown
-Syntax highlighted code block
+![Viduino](img/1.png)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+2. Enter https://raw.githubusercontent.com/thinpv/viduino/master/package_viduino_index.json into the “Additional Board Manager URLs” field as shown in the figure below. Then, click the “OK” button:
+```
+https://raw.githubusercontent.com/thinpv/viduino/master/package_viduino_index.json
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+![Viduino](img/2.png)
 
-### Jekyll Themes
+3. Open the Boards Manager. Go to Tools > Board > Boards Manager…
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thinpv/viduino/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![Viduino](img/3.png)
 
-### Support or Contact
+4. Search for Viduino and press install button for the “Viduino":
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Viduino](img/4.png)
+
+5. That’s it. It should be installed after a few seconds.
+
+![Viduino](img/5.png)
