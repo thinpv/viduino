@@ -10,6 +10,32 @@
 				{
 					"name": "Viduino ARM9",
 					"architecture": "ARM926",
+					"version": "0.0.13",
+					"category": "Viduino",
+					"url": "https://github.com/thinpv/viduino/raw/master/viduino-0.0.13.tar",
+					"archiveFileName": "viduino-0.0.13.tar",
+					"checksum": "SHA-256:08A1F6D55D0492C8B0D740BBBB2FB697C091E893B90230C5AA835FA94136D221",
+					"size": "21360640",
+					"boards": [
+						{
+							"name": "Viduino Uno"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "arduino",
+							"name": "arm-none-eabi-gcc",
+							"version": "7-2017q4"
+						},
+						{
+							"packager": "Viduino",
+							"version": "3.7.2-post1",
+							"name": "python3"
+						}
+					]
+				},{
+					"name": "Viduino ARM9",
+					"architecture": "ARM926",
 					"version": "0.0.12",
 					"category": "Viduino",
 					"url": "https://github.com/thinpv/viduino/raw/master/viduino-0.0.12.tar",
