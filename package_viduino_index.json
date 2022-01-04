@@ -14,8 +14,8 @@
 					"category": "Viduino",
 					"url": "https://github.com/thinpv/viduino/raw/master/viduino-0.0.13.tar",
 					"archiveFileName": "viduino-0.0.13.tar",
-					"checksum": "SHA-256:AACED82EFA3D72A4DB5963937717C18A6F7CC04764ABB40ABA51405B629A14F5",
-					"size": "20787200",
+					"checksum": "SHA-256:93F70699F7C1A4EB72A216AD112A154A3D80CDFD7820CD5B7A98D84D6501D811",
+					"size": "20981760",
 					"boards": [
 						{
 							"name": "Viduino Uno"
